@@ -1,13 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" media="screen and (min-width=)">
+    <link rel="stylesheet" href="estilos/style.css" media="screen">
     <title>Site</title>
 </head>
 <body>
-    
+    <header>
+        <h1>O site</h1>
+        <menu> 
+            <img src="imagens/icons8-menu-arredondado-50.png" alt="menu hamburger" onclick="clickContent()"/>
+            <nav id="content">
+                <a href="#">1º LINK</a>
+                <a href="#">2º LINK</a>
+                <a href="#">3º LINK</a>
+                <a href="#">4º LINK</a>
+                <a href="#">5º LINK</a>
+            </nav>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Artigo pika</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis iusto quia, quasi magni fugiat obcaecati exercitationem molestiae minus earum sequi corrupti fuga ipsam qui eaque delectus fugit libero quisquam. Asperiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima recusandae dolore maiores porro consectetur dolorum nihil vel sint fugiat est deleniti numquam eligendi nulla laborum corporis, magnam quibusdam facere possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum assumenda eveniet ipsa numquam, labore non nemo? Sapiente vel dolorum accusantium praesentium laudantium porro cupiditate quod iure, delectus earum neque repellat.
+            </p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab inventore neque velit ipsam accusantium dolores reiciendis pariatur, itaque nesciunt aliquid, odio, consectetur necessitatibus ducimus quam quibusdam fuga numquam omnis debitis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis deserunt ad aliquam iure neque officiis adipisci, asperiores voluptatum error tenetur quibusdam maxime? Dolorum laudantium ratione blanditiis facere veritatis harum aperiam!
+            </p>
+        </article>
+    </main>
+    <footer>
+        <p>Site criado por <a href="https://github.com/AqueleCaio/" target="_blank" rel="external">Caio__HP</a></p>
+    </footer>
+    <script>
+        function clickContent(){
+            if (content.style.display == 'block'){
+                content.style.display = 'none'
+            } else {
+                content.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
