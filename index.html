@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style.css" media="screen">
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link rel="stylesheet" href="all_style.css" media="all">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Site</title>
 </head>
 <body>
     <header>
         <h1>O site</h1>
         <menu> 
-            <img src="imagens/icons8-menu-arredondado-50.png" alt="menu hamburger" onclick="clickContent()"/>
-            <nav id="content">
+            <span class="material-symbols-outlined" onclick="clickContent()">menu</span>
+            <nav id="content_menu">
                 <a href="#">1º LINK</a>
                 <a href="#">2º LINK</a>
                 <a href="#">3º LINK</a>
@@ -32,17 +34,17 @@
             </p>
         </article>
     </main>
-    <footer>
-        <p>Site criado por <a href="https://github.com/AqueleCaio/" target="_blank" rel="external">Caio__HP</a></p>
-    </footer>
     <script>
         function clickContent(){
-            if (content.style.display == 'block'){
-                content.style.display = 'none'
-            } else {
-                content.style.display = 'block'
+            if (content_menu.style.display == 'block'){
+                content_menu.style.display = 'none'
+            }
+
+            else {
+                content_menu.style.display = 'block'
             }
         }
+
     </script>
 </body>
 </html>

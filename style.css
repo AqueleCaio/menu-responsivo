@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 200px) and (max-width: 700px){
+ 
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    html{
+        background-color: rgb(139, 122, 122, 0.788);
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.336);
+    }
+
+    
+    header{
+        background-color: gray;
+        text-align: center;
+    }
+
+    header  .material-symbols-outlined{
+        margin-top: 30px;
+    }
+
+    header span:hover{
+        cursor: pointer;
+    }
+
+    heander #content_menu{
+        display: none;
+    }
+
+    header #content_menu a{
+        text-decoration: none;
+        color: white;
+        display: grid;
+        border: 1px solid rgb(170, 160, 160);
+        padding: 10px;
+    }
+
+    header #content_menu a:hover{
+        background-color: rgb(167, 163, 163);
+    }
+
+    main{
+        background-color: white;
+        margin: 0px 30px;
+        padding: 15px;
+        text-indent: 2em;
+        line-height: 1.5em;
+        border-radius: 20px;
+
+    }
+
+    main h2{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 2500px){
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    html{
+        background-color: rgba(139, 122, 122, 0.788);
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.336);
+    }
+
+
+    header{
+        background-color: gray;
+        padding: 25px 0 0 15px;
+    }
+
+    header > h1{
+        text-align: center;
+        padding: 25px;
+    }
+
+    header > menu  .material-symbols-outlined{
+        display: none;
+    }
+
+    heander menu nav #content_menu{
+        display: block;
+    }
+
+    header #content_menu a{
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        padding: 10px;
+        background-color: rgb(82, 82, 82);
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    header #content_menu a:hover{
+        background-color: rgb(167, 163, 163);
+    }
+
+    main{
+        background-color: white;
+        margin: auto;
+        padding: 15px;
+        text-indent: 2em;
+        line-height: 1.5em;
+        border-radius: 20px;
+        max-width: 700px ;
+        box-shadow: 1px 1px 11px 0px black;
+
+    }
+
+    main h2{
+        margin-bottom: 20px;
+    }
+}
