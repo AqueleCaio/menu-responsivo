@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+/* CSS para telas superiores a 200px */
 @media screen and (min-width: 200px) and (max-width: 700px){
  
     *{
@@ -50,7 +52,6 @@
         text-indent: 2em;
         line-height: 1.5em;
         border-radius: 20px;
-
     }
 
     main h2{
@@ -59,6 +60,7 @@
 
 }
 
+/* CSS para telas com uma diminsão superior a 700px */
 @media screen and (min-width: 700px) and (max-width: 2500px){
     *{
         padding: 0;
@@ -71,7 +73,6 @@
         text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.336);
     }
 
-
     header{
         background-color: gray;
         padding: 25px 0 0 15px;
@@ -83,7 +84,13 @@
     }
 
     header > menu  .material-symbols-outlined{
-        display: none;
+        display: block;
+        margin: 10px;
+        text-align: center;
+    }
+
+    header span:hover{
+        cursor: pointer;
     }
 
     heander menu nav #content_menu{
