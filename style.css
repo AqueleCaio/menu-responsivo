@@ -22,7 +22,11 @@
     }
 
     header  .material-symbols-outlined{
-        margin-top: 30px;
+        margin: 30px 0px 0px 0px;
+        display: block;
+        margin: 10px;
+        text-align: center;
+        background-color: rgb(199, 195, 195);
     }
 
     header span:hover{
@@ -37,7 +41,7 @@
         text-decoration: none;
         color: white;
         display: grid;
-        border: 1px solid rgb(170, 160, 160);
+        border: 1px solid rgba(170, 160, 160, 0.432);
         padding: 10px;
     }
 
@@ -84,9 +88,12 @@
     }
 
     header > menu  .material-symbols-outlined{
+        margin: 30px 0px 0px 0px;
         display: block;
         margin: 10px;
         text-align: center;
+        background-color: rgb(199, 195, 195);
+
     }
 
     header span:hover{
